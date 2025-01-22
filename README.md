@@ -43,3 +43,9 @@ and when you go to specific path/route (configured in your code, the configured 
 
 cosnidering: Header and Footer as common in all the pages.
 I'll create a layout component.
+
+and change the router configuration a bit by adding children key inside
+
+and to use the dynamic component inside the specific path we can use Outlet (basically renders the child route's element, if there is one) , a named component from react-router-dom.
+
+import { Outlet } from "react-router-dom";
