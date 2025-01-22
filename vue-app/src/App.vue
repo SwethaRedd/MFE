@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ message }}</h1>
-    <p>Welcome to micro frontends crash course</p>
+    <p>Welcome to micro frontends App</p>
   </div>
 </template>
 
